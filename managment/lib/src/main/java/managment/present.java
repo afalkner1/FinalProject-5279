@@ -33,7 +33,7 @@ public class present {
 		
 		present pres = new present();
 		
-		Database data = new Database();
+		Database data = Database.getInstance();
 		
 		while(true) {
 		
