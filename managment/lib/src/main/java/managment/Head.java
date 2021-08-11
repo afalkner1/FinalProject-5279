@@ -23,6 +23,7 @@ public class Head extends Employee {
 	
 	public void setDep(String dep) {
 		this.id = dep;
+		this.dep = dep;
 	}
 	
 	public void addEmployee(Employee emp) {
