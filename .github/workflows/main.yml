@@ -1,0 +1,10 @@
+    name: Final Project Workflow
+
+    on: [push]
+
+    jobs:
+      build:
+        name: Autograder
+        runs-on: ubuntu-latest
+        steps:
+          - uses: actions/checkout@v2
