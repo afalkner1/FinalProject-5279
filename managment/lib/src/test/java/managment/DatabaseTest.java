@@ -20,7 +20,7 @@ public class DatabaseTest {
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {	
 		
-		data = new Database();
+		data = Database.getInstance();
 		
 	}
 
