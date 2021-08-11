@@ -46,9 +46,7 @@ I have used an Object-Oriented Design, with Class Objects, Abstraction, Inherita
 
 * Singleton (Creational)
 
-* Chain of Responsibility (Behavioral)
-
-* Single Responsibility principle 
+* Mediator (Behavioral) 
 
 * Java Streams
 
