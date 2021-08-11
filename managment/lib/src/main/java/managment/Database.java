@@ -7,14 +7,31 @@ import java.util.HashMap;
 
 public class Database{
 	
-
+	private static volatile Database obj  = null;
 	public List<Task> tasks = new ArrayList<>();
 	public HashMap<String, Meeting> meetings = new HashMap<String, Meeting>();
 	
 	public HashMap<String, Employee> all_employees = new HashMap<String, Employee>();
 	public HashMap<String, Employee> employees = new HashMap<String, Employee>();
 	public HashMap<String, Head> heads = new HashMap<String, Head>();
-		
+	
+	private Database() {}
+	
+	public static Database getInstance() {
+		if (obj == null)
+		{
+		    // To make thread safe
+		    synchronized (Database.class)
+		    {
+			// check again as multiple threads
+			// can reach above step
+			if (obj==null)
+			    obj = new Database();
+		    }
+		}
+		return obj;
+	    }
+	
 	
 	public void addEmployee(String name, String id) {	
 		Employee emp = new Employee(name,id);
