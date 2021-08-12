@@ -54,4 +54,4 @@ I have used an Object-Oriented Design, with Class Objects, Abstraction, Inherita
 
 ## Tests 
 
-I created a test file for each class that tests all functionality of that class. Test files are located in src/test/java. You can run all tests using Github Actionsor by running the Autograder.java file on your local machine. 
+I created a test file for each class that tests all functionality of that class. Test files are located in management/lib/src/test/java. You can run all tests using Github Actionsor by running the Autograder.java file on your local machine. 
