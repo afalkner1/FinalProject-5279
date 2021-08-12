@@ -1,5 +1,5 @@
 # FinalProject-5279
-For this project I have created the architecture of an Employee Managment System in Java. 
+For this project I have created an Employee Managment System in Java with Gradle. 
 
 ## Architecture
 Please refer to the UML Diagram below for a clearer overveiw of the program architecture. 
@@ -51,3 +51,7 @@ I have used an Object-Oriented Design, with Class Objects, Abstraction, Inherita
 * Java Streams
 
 * Composite design pattern 
+
+## Tests 
+
+I created a test file for each class that tests all functionality of that class. Test files are located in src/test/java. You can run all tests using Github Actionsor by running the Autograder.java file on your local machine. 
